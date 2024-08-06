@@ -9,6 +9,10 @@ To generate the Voronoi Diagram, the algorithm calculates perpendicular bisector
 
 The Delaunay Triangulation is derived from the Voronoi cells by identifying connections between sites that share Voronoi edges. Convex hull computations ensure completeness by adding necessary edges for points on the boundary. This novel approach allows for efficient handling of edge cases and boundary conditions.
 
+## Application Interface Demo
+
+https://github.com/user-attachments/assets/5975d880-599c-4e3c-b088-a54cc099df80
+
 ## Installation
 
 1. **Create a virtual environment:**
@@ -22,7 +26,3 @@ The Delaunay Triangulation is derived from the Voronoi cells by identifying conn
 3. **Run Application:**
    ```sh
    python voronoi_app.py  
-
-## Application Interface Demo
-
-https://github.com/user-attachments/assets/5975d880-599c-4e3c-b088-a54cc099df80
